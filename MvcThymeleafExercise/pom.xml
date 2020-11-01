@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>se.lexicon.romeobot</groupId>
-	<artifactId>MVC-Thymeleaf_exercise</artifactId>
+	<artifactId>MvcThymeleafExercise</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>MVC-Thymeleaf_exercise</name>
+	<name>MvcThymeleafExercise</name>
 	<description>Week1 Spring Boot, Thymeleaf, MVC</description>
 
 	<properties>

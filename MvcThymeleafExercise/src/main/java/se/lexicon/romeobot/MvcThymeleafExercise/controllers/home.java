@@ -24,8 +24,13 @@ public class home {
     }
 
     @PostMapping("/contact")
-    public String contact(String ){
+    public String contact(@Requestparam String contact){
         return "contact";
     }
 
+    public Model contactList(Model model) {
+
+        return
+
+    }
 }

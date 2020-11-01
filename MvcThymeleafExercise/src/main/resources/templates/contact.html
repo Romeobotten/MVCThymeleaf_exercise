@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact</title>
+</head>
+<body>
+<h1>CONTACT PAGE</h1>
+
+<div class="container">
+    <form th:action="@{/contact/add}" method="post" th:object="${dto}">
+        <div class="container">
+            <div class="card mt-4 mb-3 border-primary shadow-sm">
+                <h4 class="bg-light text-primary card-header">Register Text</h4>
+            </div>
+            <p>Please fill in this form to add text</p>
+            <hr>
+
+            <label class="col-sm-3 control-label"><b>Text:</b></label>
+            <input type="text" class="form-control" th:field="*{name}" placeholder="Enter Text">
+
+            <hr>
+            <button type="submit" class="btn btn-primary btn-block mb-3">Add Text</button>
+        </div>
+    </form>
+</div>
+
+
+</body>
+</html>
